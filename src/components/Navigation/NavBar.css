@@ -1,0 +1,108 @@
+.navbar {
+    position: sticky!important;
+    background-color: transparent!important;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;  
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    z-index: 1020;
+    padding: 0px 10px 0px 10px;
+    font-family: "Teko", sans-serif;
+    text-transform: uppercase; 
+}
+
+@media (min-width: 100px) and (max-width: 991px) {
+  .navbar{
+    font-weight: 1000;
+    font-size: 10px;
+  }
+}
+
+.join_us{
+  display: none;
+}
+
+@media (min-width: 991px) and (max-width: 1450px) {
+  .join_us{
+    display: block;
+  }
+}
+
+.bg{
+  background-image: linear-gradient(to right, rgba(73,3,3,1), rgba(125,89,92,1))!important;
+}
+
+.current {
+  text-decoration: underline overline;
+  text-decoration-color: red;
+}
+
+.join_us a {
+  background: #FF1414;
+  font-family: "Teko", sans-serif;
+  padding: 6px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  color: #fff;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  text-transform: uppercase;
+}
+.join_us a:hover {
+  background: transparent;
+  /* IE6-9 */
+  color: #FF1414 !important;
+  border: 1px solid #FF1414;
+}
+.navbar-brand :hover{
+    transform: scale(1.2);
+    transition: all 1s;
+}
+.Drop{
+  padding-top: 8px;
+}
+.sw-logo{
+  display:none;
+}
+
+@media (min-width: 991px) and (max-width: 1450px) {
+.sw-logo{
+  display: block;
+}
+}
+
+@media (min-width: 100px) and (max-width: 991px) {
+  .sw-logo{
+    display: none;
+  }
+}
+
+.navbar-just{
+  display:none;
+}
+@media (min-width: 100px) and (max-width: 991px) {
+.navbar-just{
+  display: block;
+}
+}
+
+.navbar-just :hover{
+  transform: scale(1.2);
+  transition: all 1s;
+}
+
+.navbar-toggler {
+  font-size: 0.8rem!important;
+  line-height: 0.5!important; 
+  border: none!important;
+  border-color: transparent!important;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: transparent!important;
+}
